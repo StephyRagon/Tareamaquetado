@@ -1,0 +1,128 @@
+body{
+    font-family:'Open Sans',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-header{
+    background-color: saddlebrown;
+    color: white;
+    padding: 20px 0;
+}
+
+.site-header h1{
+    margin: 0;
+    color: antiquewhite;
+}
+
+
+.site-header h1 span{
+    color: whitesmoke;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.navegacion a:hover{
+    color: white;
+}
+
+.texto-header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.blog{
+    width: 70%;
+    float: left;
+    padding-right: 20px;
+}
+
+.entrada-blog{
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.imagen img{
+    width: 50%;
+}
+
+.contenido-blog{
+    padding: 20px;
+    background-color: white;
+}
+
+.btn{
+    display: inline-block;
+    background-color: saddlebrown ;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: saddlebrown;
+}
+
+.cursos{
+    width: 30%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+}
+
+.cursos h2{
+    margin-top: 0;
+}
+
+.cursos-lista{
+    list-style: none;
+    padding: 0;
+}
+
+.curso{
+    margin-bottom: 20px;
+}
+
+.site-footer{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-footer p{
+    margin: 0;
+}
+
+.site-footer .navegacion{
+    margin-top: 10px;
+}
+
+.site-footer .navegacion a{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.site-footer .navegacion a:hover{
+    color: white;
+}
